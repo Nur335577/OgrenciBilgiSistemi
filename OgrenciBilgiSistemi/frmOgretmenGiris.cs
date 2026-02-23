@@ -18,7 +18,7 @@ namespace OgrenciBilgiSistemi
         {
             InitializeComponent();
         }
-        SqlConnection bgl = new SqlConnection(@"Data Source=LAPTOP-74SKFQ4C\SQLEXPRESS;Initial Catalog=OgrenciSistemi;Integrated Security=True");
+        SqlConnection bgl = new SqlConnection(@"<--->;Initial Catalog=OgrenciSistemi;Integrated Security=True"); //bilgisayar adıını girin.
         private void frmOgretmenGiris_Load(object sender, EventArgs e)
         {
             
