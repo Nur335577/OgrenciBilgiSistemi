@@ -18,7 +18,7 @@ namespace OgrenciBilgiSistemi
             InitializeComponent();
         }
         public string Numara;
-        SqlConnection bgl = new SqlConnection(@"Data Source=LAPTOP-74SKFQ4C\SQLEXPRESS;Initial Catalog=OgrenciSistemi;Integrated Security=True");
+        SqlConnection bgl = new SqlConnection(@"<--->;Initial Catalog=OgrenciSistemi;Integrated Security=True"); //yerel bilgisayar adınızı girin.
         private void FrmOgrenciDetay2_Load(object sender, EventArgs e)
         {
             labelOgrenciNo.Text = Numara;
